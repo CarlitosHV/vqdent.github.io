@@ -1,0 +1,233 @@
+*{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+@media screen and (max-width: 480px){
+  body{
+    background-color: bisque;
+    
+  }
+  .container{
+    opacity: 0;
+  }
+
+  #horario{
+    font-size: smaller;
+    right: 50px;
+  }
+  #boton{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+  .ventana {
+    background-color: rgba(29, 157, 216, 0.548);
+    color: aliceblue;
+    width: 300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 20%;
+    border-radius: 5%;
+    text-align: left;
+  }
+  .modal {
+    background-color: rgba(131, 210, 216, 0.8);
+    position: fixed;
+    top: -250px;
+    right: 0;
+    bottom: 0;
+    
+    opacity: 0;
+    pointer-events: none;
+    transition: all 1s;
+  }
+  #IrVentanaFlotante:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+body {
+  background-image: radial-gradient(circle, rgb(124, 218, 255), #7bc2f1);
+  text-align: center;
+  min-height: 100vh;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+body opcion{
+  margin-top: auto;
+}
+
+header {
+  background-color: azure;
+  padding: 2vmin;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+}
+
+h1 {
+  font-size: xx-large;
+  text-align: center;
+  color: aliceblue;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main res{
+  margin: 2rem;
+  min-width: 320px;
+  flex: 1 1 320px;
+}
+
+#logo {
+  width: 20%;
+  height: 20%;
+  
+}
+
+
+.numeroflot {
+  position: fixed;
+  bottom: 2;
+  left: 8px;
+  padding: 1vmin;
+}
+
+.numeroflot img {
+  
+  width: 40px;
+  height: 40px;
+  bottom: 17%;
+  left: 5px;
+  padding: 1vmin;
+  position: fixed;
+ 
+}
+
+.numeroflot span {
+  bottom: 18%;
+  left: 54px;
+  position: fixed;
+  background-color: green;
+  color: aliceblue;
+}
+
+footer {
+  padding: 1.5vmin;
+  background-color: azure;
+  color: black;
+  text-transform: uppercase;
+  margin-top: auto;
+  width: 100%;
+}
+footer address {
+  text-align: center;
+  
+}
+
+
+
+.ventana {
+  background-color: rgba(29, 157, 216, 0.548);
+  color: aliceblue;
+  width: 300px;
+  padding: 10px 20px;
+  margin: 20% auto;
+  position: relative;
+  top: 20%;
+  border-radius: 5%;
+  text-align: left;
+}
+.modal {
+  background-color: rgba(131, 210, 216, 0.8);
+  position: fixed;
+  top: -250px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 1s;
+}
+#IrVentanaFlotante:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+#campos {
+  color: aliceblue;
+  text-align: left;
+}
+
+.inputs {
+  color: black;
+  position: relative;
+  left: 10%;
+  margin-bottom: 10px;
+}
+
+.labels {
+  font-family: 'Noto Sans', sans-serif;
+}
+#comprobar {
+  position: relative;
+}
+#tit {
+  position: relative;
+  left: 60%;
+}
+.container{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 320px;
+  max-width: 1400px;
+}
+
+.container mapa{
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+
+
+#pacientes{
+  color: black;
+  border-style: dashed;
+  border-color: black;
+  margin: 1rem;
+  
+}
+
+#admon{
+  margin: 2rem;
+  min-width: 320px;
+  flex: 1 1 320px;
+}
+
+.text{
+  text-align: justify;
+}
+#boton{
+  position: absolute;
+  padding-top: 50px;
+  left: 80%;
+}
+#boton a{
+  text-decoration: none;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
